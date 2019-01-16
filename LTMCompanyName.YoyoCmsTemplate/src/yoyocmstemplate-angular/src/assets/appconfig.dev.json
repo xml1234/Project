@@ -1,0 +1,34 @@
+{
+  "remoteServiceBaseUrl": "http://localhost:6297",
+  "uploadApiUrl": "/api/File/Upload",
+  "localeMappings": [
+    {
+      "from": "pt-BR",
+      "to": "pt"
+    },
+    {
+      "from": "zh-Hans",
+      "to": "zh"
+    }
+  ],
+  "ngZorroLocaleMappings": [
+    {
+      "from": "en",
+      "to": "en_US"
+    },
+    {
+      "from": "zh-Hans",
+      "to": "zh_CN"
+    }
+  ],
+  "ngAlainLocaleMappings": [
+    {
+      "from": "en",
+      "to": "en-US"
+    },
+    {
+      "from": "zh-Hans",
+      "to": "zh-CN"
+    }
+  ]
+}

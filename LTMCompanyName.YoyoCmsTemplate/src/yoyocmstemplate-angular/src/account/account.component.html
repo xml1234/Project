@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="text-center">
+    <!-- logo -->
+    <div>
+      <a [routerLink]="['/']">
+        <img class="logo" src="/assets/images/logos/logo-txt-color-shield.svg">
+      </a>
+    </div>
+
+    <!-- 标题信息 -->
+    <div class="account-slogon">
+      <h2 class="account-slogon-main ">欢迎使用YoyoCmsTemplate</h2>
+      <p class="account-slogon-subhead">
+        <span>学 .NET CORE 及ABP框架、DDD就上 <a href="http://www.52abp.com/" title="52abp官网网址" target="_blank">52ABP.COM</a>
+        </span>
+      </p>
+    </div>
+  </div>
+
+  <!-- 租户切换 -->
+  <div *ngIf="showTenantChange()">
+    <tenant-change></tenant-change>
+  </div>
+
+
+  <router-outlet></router-outlet>
+
+  <!-- 语言选择 -->
+  <div class="text-center">{{l('LanguageSelection')}}</div>
+  <account-languages></account-languages>
+
+  <!-- 底部信息 -->
+  <global-footer [links]="links">
+    Copyright
+    <i class="anticon anticon-copyright"></i> {{currentYear}}
+    <b>Version </b>{{versionText}}
+    <a href="http://www.52abp.com/" target="_blank">52ABP.COM</a>出品
+  </global-footer>
+
+</div>

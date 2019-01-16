@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>LTMCompanyName.YoyoCmsTemplate.Application</AssemblyName>
+    <PackageId>LTMCompanyName.YoyoCmsTemplate.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>LTMCompanyName.YoyoCmsTemplate</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Configuration\Content\**" />
+    <EmbeddedResource Remove="Configuration\Content\**" />
+    <None Remove="Configuration\Content\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.Web.Common" Version="4.1.0" />
+    <PackageReference Include="System.IO.Compression.ZipFile" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LTMCompanyName.YoyoCmsTemplate.Core\LTMCompanyName.YoyoCmsTemplate.Core.csproj" />
+  </ItemGroup>
+</Project>

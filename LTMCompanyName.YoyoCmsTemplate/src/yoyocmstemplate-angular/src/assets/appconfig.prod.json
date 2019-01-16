@@ -1,0 +1,35 @@
+{
+  "remoteServiceBaseUrl": "http://proapi.52abp.com",
+  "uploadApiUrl": "/api/File/Upload",
+  "localeMappings": [{
+      "from": "pt-BR",
+      "to": "pt"
+    },
+    {
+      "from": "zh-CN",
+      "to": "zh"
+    },
+    {
+      "from": "he-IL",
+      "to": "he"
+    }
+  ],
+  "ngZorroLocaleMappings": [{
+      "from": "en",
+      "to": "en_US"
+    },
+    {
+      "from": "zh-Hans",
+      "to": "zh_CN"
+    }
+  ],
+  "ngAlainLocaleMappings": [{
+      "from": "en",
+      "to": "en-US"
+    },
+    {
+      "from": "zh-Hans",
+      "to": "zh-CN"
+    }
+  ]
+}

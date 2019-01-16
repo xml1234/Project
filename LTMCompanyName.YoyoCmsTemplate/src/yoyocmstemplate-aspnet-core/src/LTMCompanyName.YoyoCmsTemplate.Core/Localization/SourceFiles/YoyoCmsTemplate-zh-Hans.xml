@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="zh-Hans">
+  <texts>
+
+    <!--CMS自定义的多语言信息-->
+    <text name="Download" value="下载" />
+    <text name="Documents" value="文档" />
+    <text name="Wiki" value="文档中心" />
+    <text name="Course" value="课程" />
+    <text name="Tutorials" value="教程" />
+    <text name="Blog" value="博客" />
+    <text name="BlogList" value="博客列表" />
+    <text name="BlogDetails" value="博客详情" />
+    <text name="EventList" value="活动列表" />
+    <text name="Event" value="活动" />
+    <text name="Job" value="招聘" />
+    <text name="VideoCourse" value="视频课程" />
+    <text name="Faq" value="FAQ" />
+    <text name="FAQ" value="FAQ" />
+    <text name="SourceCode" value="源代码" />
+    <text name="GitHub" value="GitHub" />
+    <text name="Samples" value="案例" />
+    <text name="Pricing" value="价格" />
+    <text name="Vip" value="VIP" />
+    <text name="VIP" value="VIP" />
+    <text name="Tools" value="工具" />
+    <text name="HelpUs" value="帮助我们" />
+    <text name="Cooperation" value="合作" />
+    <text name="Feature" value="功能" />
+    <text name="ContactUs" value="联系我们" />
+    <text name="BusinessCooperation" value="商务合作" />
+    <text name="Login/Register" value="登录/注册" />
+    <text name="CAPTCHA" value="验证码" />
+
+    <text name="UserCenter" value="个人中心"></text>
+    <text name="ResetPassword" value="重置密码"></text>
+    <text name="EmailConfirmation" value="验证邮箱"></text>
+    <text name="EmailConfirmationCode" value="邮箱验证码"></text>
+    <text name="ReSend" value="重新发送"></text>
+    <text name="ForgotPassword" value="忘记密码"></text>
+    <text name="ForgotPassword_SendMail_Msg" value="如果你的用户名和邮箱匹配,那么系统将会发送邮件到你的邮箱,请注意查收,密码修改成功前请勿刷新当前页面或关闭浏览器"></text>
+    <text name="UserAlreadyExists" value="用户名已被使用"></text>
+    <text name="EmailAlreadyExists" value="邮箱已被使用"></text>
+    <text name="UserAlreadyExists_Msg" value="用户名 {0} 已被使用"></text>
+    <text name="EmailAlreadyExists_Msg" value="邮箱 {0} 已被使用"></text>
+    <text name="52ABPTemplate" value="52ABP项目模板"></text>
+    <text name="YoyoNgModule" value="Yoyo-NG-Module"></text>
+
+
+
+
+    <!--数据表格-->
+    <text name="BatchDelete" value="批量删除"></text>
+    <text name="NoData" value="暂无数据"/>
+    <text name="GridFooterDisplayText" value="当前 {0} 页/共 {1} 页，共 {2} 条/显示 {3}-{4} 条"/>
+    <text name="GridSelectedXItemsTips">
+      <![CDATA[
+        已选择 <strong class="text-primary">{0}</strong> 项
+     ]]>
+    </text>
+
+
+    <!--系统提示性信息-->
+    <text name="HintInformation" value="提示信息"/>
+    <text name="ConfirmInformation" value="确认信息"/>
+    <text name="MessageInfo" value="通知信息"/>
+    <text name="MessageSuccess" value="成功信息"/>
+    <text name="MessageWarn" value="警告信息"/>
+    <text name="MessageError" value="错误信息"/>
+    <text name="MessageFail" value="失败信息"/>
+    <text name="MessageConfirmOperation" value="确认操作"/>
+    <text name="DoYouMakeSureToContinue" value="确认要继续吗？"/>
+    <text name="ConfirmLogout" value="确定退出系统吗？"/>
+    <text name="ConfirmDeleteWarningMessage" value="确定要删除吗？"/>
+    <text name="PleaseSelectAtLeastOneItem" value="请至少选择一项"/>
+    <text name="InvalidParameter" value="参数无效" />
+    <text name="ConfirmDeleteXItemsWarningMessage">
+      <![CDATA[
+        确定要删除选中的 <b class='text-red'>{0}</b> 项记录吗？
+       ]]>
+    </text>
+    <text name="YouHaveNoOperatingPermissions" value="抱歉，您无权操作！"/>
+    <text name="MovingWithThreeDot" value="移动中..."/>
+
+
+    <!--公用-->
+    <text name="Search" value="搜索"/>
+
+
+    <!-- 角色 -->
+    <text name="Note_RefreshPageForPermissionChanges" value="备注:修改权限后刷新页面生效"></text>
+    <text name="FilterByPermission" value="权限过滤"></text>
+    <text name="FilterByRole" value="角色过滤"></text>
+
+
+    <text name="InXSearchPlaceHolder" value="在{0}中搜索"/>
+    <text name="PleaseSelectAXPlaceHolder" value="请选择一个{0}"/>
+    <text name="MinExecutio" value="最小持续时间"/>
+    <text name="MaxExecutio" value="最大持续日期"/>
+    <text name="StartDateTime" value="开始日期"/>
+    <text name="EndDateTime" value="结束日期"/>
+    <text name="ThisFieldIsRequired" value="此项为必填项"/>
+    <text name="EnterFormatIsNotCorrect">输入的格式不正确</text>
+    <text name="More" value="更多..."/>
+    <text name="ClearEmpty" value="清空"/>
+    <text name="NameOfThings" value="名称"/>
+    <text name="Create" value="添加"/>
+
+    <!--基础设施的内容-->
+    <!--组织单元-->
+    <text name="OrganizationTree" value="组织结构树" />
+    <text name="OrganizationUnits" value="组织单元" />
+    <text name="OrganizationUnitName" value="组织单元名" />
+    <text name="ManagingOrganizationTree" value="管理组织结构树" />
+    <text name="ManagingMembers" value="管理组织结构成员" />
+    <text name="NewOrganizationUnit" value="新组织单元" />
+    <text name="AddSubUnit" value="添加下级组织" />
+    <text name="AddRootUnit" value="添加根组织" />
+    <text name="OrganizationUnitMoveConfirmMessage" value="请确认移动 {0} 到 {1}." />
+    <text name="Members" value="会员信息" />
+    <text name="AddMember" value="添加会员" />
+    <text name="Remove" value="移除" />
+    <text name="AddedTime" value="添加时间" />
+    <text name="NoOrganizationUnitDefinedYet" value="尚未定义组织单元" />
+    <text name="SelectAnOrganizationUnitToSeeMembers" value="选择一个组织单元以浏览其成员" />
+    <text name="UserIsAlreadyInTheOrganizationUnit" value="该用户已经存在于当前的组织单元了" />
+    <text name="OrganizationUnitDuplicateDisplayNameWarning" value="{0}已经在当前的组织中。两个同名的单位不能在同一等级上创建。" />
+
+
+    <!--本地化语言管理-->
+    <text name="LanguageIcon" value="语言图标"></text>
+    <text name="BaseLanguage" value="源语言"></text>
+    <text name="TargetLanguage" value="目标语言"></text>
+    <text name="Source" value="源"></text>
+    <text name="EmptyOnes" value="空"></text>
+
+
+    <!--审计日志-->
+    <text name="AuditLogsHeaderInfo" value="管理系统审计日志"></text>
+    <text name="MethodName" value="方法名"></text>
+    <text name="MinExecutionDuration" value="最短执行时间"></text>
+    <text name="MaxExecutionDuration" value="最长执行时间"></text>
+    <text name="ExceptionType" value="异常"></text>
+    <text name="CustomData" value="数据"></text>
+    <text name="Service" value="服务" />
+    <!--异常信息-->
+    <text name="Error403Desc" value="抱歉，您无权访问该页面！"/>
+    <text name="Error404Desc" value="抱歉，您访问的页面不存在！"/>
+    <text name="Error500Desc" value="抱歉，服务器出错了！"/>
+    <text name="DefaultErrorMessage" value="发生了一个错误"/>
+    <text name="DefaultErrorDetails" value="服务器未发送错误详细信息"/>
+    <text name="DefaultError401Message" value="您没有被认证"/>
+    <text name="DefaultError401Details" value="您应该通过身份验证（登录）才能执行此操作"/>
+    <text name="DefaultError403Message" value="您没有权限"/>
+    <text name="DefaultError403Details" value="您不能执行此操作"/>
+    <text name="DefaultError404Message" value="资源未找到"/>
+    <text name="DefaultError404Details" value="请求的资源在服务器上找不到"/>
+
+    <text name="Action" value="操作" />
+    <text name="Duration" value="持续时间" />
+    <text name="IpAddress" value="IP地址" />
+    <text name="Client" value="客户端" />
+    <text name="Browser" value="浏览器" />
+    <text name="Xms" value="{0} ms" />
+    <text name="Close" value="关闭" />
+    <text name="Refresh" value="刷新" />
+    <text name="ErrorState" value="错误状态" />
+    <text name="All" value="全部" />
+    <text name="HasError" value="出现错误" />
+    <text name="ViewDetails" value="查看详情" />
+    <text name="ShowAdvancedFilters" value="显示高级过滤" />
+    <text name="HideAdvancedFilters" value="隐藏高级过滤" />
+    <text name="AuditLogDetail" value="审计日志详情" />
+    <text name="Parameters" value="参数" />
+    <text name="DateRange" value="日期范围" />
+    <text name="ActionInformations" value="操作信息" />
+    <text name="Today" value="今天" />
+    <text name="Yesterday" value="昨天" />
+
+    <!--管理内容-->
+
+    <text name="Administration" value="管理" />
+    <text name="CMS" value="内容控制系统" />
+    <text name="ContentManagement" value="内容控制" />
+    <text name="Columns" value="栏目" />
+    <text name="Languages" value="语言列表" />
+    <text name="LanguagesHeaderInfo" value="管理语言列表的文本头信息" />
+    <text name="Code" value="编码" />
+    <text name="Enabled" value="启用" />
+    <text name="LanguageTexts" value="语言文本列表" />
+    <text name="LanguageTextsInfo" value="编辑语言的文本头信息" />
+    <text name="ChangeTexts" value="改变文本内容" />
+    <text name="SetAsDefaultLanguage" value="设置为默认语言" />
+    <text name="CreateNewLanguage" value="创建新语言" />
+    <text name="Maintenance" value="维护" />
+    <text name="Caching" value="缓存" />
+    <text name="CachesHeaderInfo" value="维护缓存信息" />
+    <text name="ClearAll" value="全部清空" />
+    <text name="Clear" value="清空" />
+    <text name="WebSiteLog" value="网站日志" />
+    <text name="WebsiteLogsHeaderInfo" value="维护网站日志" />
+    <text name="DownloadAll" value="全部下载" />
+
+    <text name="Edition" value="版本"></text>
+    <text name="Editions" value="版本列表"></text>
+    <text name="EditionsHeaderInfo" value="管理当前应用的版本和特性参数"></text>
+    <text name="CreateNewEdition" value="创建新的版本"></text>
+    <text name="EditEdition" value="编辑版本"></text>
+    <text name="EditionProperties" value="版本属性列表"></text>
+    <text name="EditionName" value="版本名称"></text>
+    <text name="Features" value="特性参数列表"></text>
+    <text name="EditionDeleteWarningMessage" value="{0}已经分配给租户的版本会被删除."></text>
+    <text name="CreatingNewEdition" value="创建一个新的版本"></text>
+    <text name="EditingEdition" value="正在编辑版本"></text>
+    <text name="DeletingEdition" value="正在删除版本"></text>
+    <text name="ChangingFeatures" value="正在修改特性参数"></text>
+    <text name="ResetSpecialFeatures" value="重置特殊的特性参数"></text>
+    <text name="ResetFeaturesTooltip" value="重置租户指定的特性参数设置并且保存.当前租户只会拥有已注册版本的特性参数."></text>
+    <text name="NotAssigned" value="没有分配"></text>
+    <text name="InvalidFeaturesWarning" value="一个或者多个特性参数值无效"></text>
+
+    <text name="SubscriptionEndDateUtc" value="订阅到期时间" />
+    <text name="Key" value="键值" />
+    <text name="BaseValue" value="默认值" />
+    <text name="TargetValue" value="目标值" />
+    <text name="BackLanguageList" value="返回语言列表" />
+    <text name="CreatingNewLanguage" value="创建新语言" />
+    <text name="EditingLanguage" value="编辑语言" />
+    <text name="DeletingLanguages" value="删除语言" />
+    <text name="ChangingTexts" value="修改文本信息" />
+    <text name="FullScreen" value="全屏" />
+    <text name="ClearAllLocalStorage" value="清除所有本地缓存" />
+    <text name="ModuleName" value="模块名称" />
+    <text name="Description" value="描述" />
+    <text name="IsShow" value="是否显示" />
+    <text name="Sort" value="排序" />
+    <text name="LanguageName" value="语言名称" />
+    <text name="ConfirmPassword" value="确认密码" />
+    <text name="PhoneNumber" value="电话号码" />
+    <text name="IsLockoutEnabled" value="启用锁定" />
+    <text name="ColumnDuplicateDisplayNameWarning" value="{1}模块中已经存在栏目名称{0}，请换个名字。" />
+    <text name="MoveColumn" value="移动栏目" />
+    <text name="AddSubColumn" value="添加子项栏目" />
+
+
+
+    <!--基础设置内容v0.1-->
+    <text name="HomePage" value="主页" />
+    <text name="About" value="关于" />
+    <text name="AboutUs" value="关于我们" />
+    <text name="Start" value="开始" />
+    <text name="WellcomeMessage" value="欢迎使用 YoyoCmsTemplate!" />
+    <text name="Version" value="版本" />
+    <text name="HangfireDashboard" value="Hangfire面板" />
+
+    <text name="FormIsNotValidMessage" value="部分输入信息不符合要求，请检查并改正.." />
+    <text name="TenantNameCanNotBeEmpty" value="租户名不能为空" />
+
+    <text name="InvalidUserNameOrPassword" value="用户名或密码无效" />
+    <text name="ThereIsNoTenantDefinedWithName{0}" value="租户 {0}不存在" />
+    <text name="TenantIsNotActive" value="租户 {0} 未激活." />
+    <text name="UserIsNotActiveAndCanNotLogin" value="用户 {0} 未激活，不能登录." />
+    <text name="PleaseEnterLoginInformation" value="请输入登录信息" />
+    <text name="UserNameOrEmail" value="用户名或邮箱地址" />
+    <text name="Password" value="密码" />
+    <text name="RememberMe" value="记住我" />
+    <text name="LogIn" value="登录" />
+    <text name="Login" value="登录" />
+    <text name="LogIningWithThreeDot" value="登录中..." />
+    <text name="Register" value="注册" />
+    <text name="VerificationCode" value="验证码(不区分大小写)"></text>
+    <text name="CreateAnAccount" value="创建新账户"/>
+
+
+    <text name="LoginFailed" value="登录失败!" />
+    <text name="Roles" value="角色" />
+    <text name="Users" value="用户" />
+
+    <text name="Pages" value="页面" />
+    <text name="RoleName" value="角色名称" />
+    <text name="EditRole" value="修改角色" />
+    <text name="CreateNewRole" value="添加角色" />
+    <text name="RoleProperties" value="角色属性" />
+    <text name="Permissions" value="权限" />
+    <text name="Save" value="保存" />
+    <text name="Cancel" value="取消" />
+    <text name="RolesHeaderInfo" value="使用角色进行权限分组." />
+    <text name="Static" value="系统" />
+    <text name="Actions" value="操作" />
+    <text name="Delete" value="删除" />
+    <text name="SavedSuccessfully" value="保存成功." />
+    <text name="AreYouSure" value="您确定吗?" />
+    <text name="YesDelete" value="是, 执行删除!" />
+    <text name="DeletingUser" value="删除用户" />
+    <text name="UsersHeaderInfo" value="管理用户及权限." />
+    <text name="CreateNewUser" value="添加用户" />
+    <text name="UserName" value="用户名" />
+    <text name="Name" value="名字" />
+    <text name="Surname" value="姓氏" />
+    <text name="EmailAddress" value="邮箱地址" />
+    <text name="LastLoginTime" value="上次登录时间" />
+    <text name="EditUser" value="修改用户" />
+    <text name="UserInformations" value="用户信息" />
+    <text name="PasswordRepeat" value="密码 (核对)" />
+    <text name="SuccessfullyDeleted" value="删除成功." />
+    <text name="RoleDeleteWarningMessage" value="角色 {0} 将被删除，拥有此角色的用户将取消此角色." />
+    <text name="UserDeleteWarningMessage" value="用户 {0} 将被删除." />
+    <text name="Active" value="激活" />
+    <text name="EmailConfirm" value="邮箱地址验认" />
+    <text name="Yes" value="是" />
+    <text name="No" value="否" />
+    <text name="MySettings" value="我" />
+    <text name="Logout" value="注销" />
+    <text name="Reset" value="重置" />
+    <text name="ResetPermissionsTooltip" value="重置用户权限后，用户仅拥有所属角色包含的权限，为用户直接指定的权限将取消." />
+    <text name="ResetSuccessfully" value="重置成功" />
+    <text name="CurrentTenant" value="当前租户名称" />
+    <text name="NotSelected" value="未选择" />
+    <text name="Tenants" value="租户" />
+    <text name="ChangeTenant" value="切换租户" />
+    <text name="LeaveEmptyToSwitchToHost" value="留空则切换到宿主" />
+    <text name="Change" value="切换" />
+    <text name="TenantsHeaderInfo" value="管理租户." />
+    <text name="CreateNewTenant" value="添加租户" />
+    <text name="TenancyCodeName" value="租户编码" />
+    <text name="TenantName" value="租户名称" />
+    <text name="TenantDeleteWarningMessage" value="租户 {0} 将被删除." />
+    <text name="AdminEmailAddress" value="管理员邮箱" />
+    <text name="AdminPassword" value="管理员密码" />
+    <text name="AdminPasswordRepeat" value="管理员密码(核对)" />
+    <text name="EditTenant" value="修改租户" />
+    <text name="ChangingPermissions" value="更改权限" />
+    <text name="DeleteProfilePicture" value="删除档案图片" />
+    <text name="UserLockOut" value="锁定用户" />
+    <text name="Unlock" value="解锁" />
+    <text name="EditingUser" value="修改用户" />
+    <text name="CreatingNewUser" value="添加用户" />
+    <text name="Edit" value="修改" />
+    <text name="EditingTenant" value="修改租户" />
+    <text name="CreatingNewTenant" value="添加租户" />
+    <text name="DeletingTenant" value="删除租户" />
+    <text name="EditingRole" value="修改角色" />
+    <text name="CreatingNewRole" value="添加角色" />
+    <text name="DeletingRole" value="删除角色" />
+    <text name="CreationTime" value="创建时间" />
+    <text name="SearchWithThreeDot" value="搜索..." />
+    <text name="ResetSpecialPermissions" value="重置直接指定权限" />
+    <text name="SavingWithThreeDot" value="保存中..." />
+    <text name="Settings" value="设置" />
+    <text name="SaveAll" value="保存全部" />
+    <text name="SettingsHeaderInfo" value="显示和修改程序设置." />
+    <text name="EmailSmtp" value="邮箱 (SMTP)" />
+    <text name="DefaultFromAddress" value="默认发送邮箱地址" />
+    <text name="DefaultFromDisplayName" value="默认发送人名字" />
+    <text name="SmtpHost" value="SMTP服务器" />
+    <text name="SmtpPort" value="SMTP端口" />
+    <text name="UseDefaultCredentials" value="默认身份验证" />
+    <text name="DomainName" value="域名" />
+    <text name="UseSsl" value="使用SSL" />
+    <text name="ThisWebSiteRootAddress" value="网站http根路径" />
+    <text name="ThisWebSiteRootAddress_Hint" value="示例： http://52abp.com/ ，用于外部链接本系统，如密码重置链接" />
+    <text name="General" value="基本信息" />
+    <text name="SendPasswordResetLink_Information" value="系统在几十秒内向您发送一封密码重置邮件，如果在3分钟内还没收到这封邮件，请重试." />
+    <text name="Send" value="发送" />
+    <text name="PasswordReset" value="重置密码" />
+    <text name="InvalidUserNameOrEmailAddress" value="用户名或Email地址无效" />
+    <text name="PasswordResetEmail_Subject" value="重置密码" />
+    <text name="PasswordResetEmail_Title" value="重置密码." />
+    <text name="PasswordResetEmail_SubTitle" value="进行密码重置." />
+    <text name="PasswordResetEmail_ClickTheLinkBelowToResetYourPassword" value="请点击以下链接重置密码:" />
+    <text name="EmailActivation_Subject" value="激活您的用户账号" />
+    <text name="EmailActivation_Title" value="欢迎使用系统." />
+    <text name="EmailActivation_SubTitle" value="系统发送此邮件验证您的邮箱地址,并激活您的用户账号." />
+    <text name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" value="请点击以下链接确认您的邮箱地址,并激活您的用户账号:" />
+    <text name="InvalidEmailAddress" value="邮箱地址无效" />
+    <text name="InvalidPasswordResetCode" value="密码重置已失效" />
+    <text name="InvalidPasswordResetCode_Detail" value="请您务必通过点击邮件中的重置链接进入本页面.如果已经这样做了,还存在问题,请重试一遍密码重置操作!" />
+    <text name="PleaseEnterYourNewPassword" value="请输入新密码." />
+    <text name="UserEmailIsNotConfirmedAndCanNotLogin" value="您的邮箱未通过验证.请检查您的邮箱地址是否正确,查收邮件并点击邮件内容中的验证链接进行验证和激活.如果没有收到邮件,请点击[邮箱验证],系统会重新发送一封邮件." />
+
+    <text name="InvalidEmailConfirmationCode" value="邮箱验证已失效" />
+    <text name="InvalidEmailConfirmationCode_Detail" value="请您务必通过点击邮件中的重置链接进入本页面.如果已经这样做了,还存在问题,请重试一遍邮箱验证操作!" />
+    <text name="YourEmailIsConfirmedMessage" value="您的邮箱已通过验证." />
+    <text name="ThisAdminUser" value="管理员用户" />
+    <text name="ShouldChangePasswordOnNextLogin" value="下次登录需要修改密码." />
+    <text name="UploadProfilePicture" value="上传头像" />
+    <text name="SetRandomPassword" value="使用随机密码." />
+    <text name="EmailActivation" value="发送激活邮件" />
+    <text name="SendEmailActivationLink_Information" value="系统在几十秒内向您发送一封邮件,用于激活您的用户账号，请接收并点击邮件内容中的激活链接。如果在2分钟内还没收到这封邮件，请重试." />
+    <text name="SendActivationEmail" value="发送激活邮件." />
+    <text name="ChangePassword" value="修改密码" />
+    <text name="LoginAttempts" value="登录足迹" />
+    <text name="LoginState" value="登录状态" />
+    <text name="CurrentPassword" value="当前密码" />
+    <text name="NewPassword" value="新密码" />
+    <text name="NewPasswordRepeat" value="新密码 (核对)" />
+    <text name="YourPasswordHasChangedSuccessfully" value="密码修改成功." />
+    <text name="SelfUserRegistrationIsDisabledMessage" value="您不能注册!" />
+    <text name="SelfUserRegistrationIsDisabledMessage_Detail" value="注册功能被禁用，请联系您的系统管理员为您建立用户账号." />
+    <text name="SuccessfullyRegistered" value="注册成功" />
+    <text name="ConfirmationMailSentPleaseClickLinkInTheEmail" value="已往您的{0}邮箱发送了一封邮件，请点击邮件中的链接，验证您的邮箱地址." />
+    <text name="YourAccountIsWaitingToBeActivatedByAdmin" value="您的用户账号尚未激活，待系统管理员激活后方能登录使用系统." />
+    <text name="NameSurname" value="姓名" />
+    <text name="UserManagement" value="用户管理" />
+    <text name="AllowUsersToRegisterThemselves" value="允许用户注册." />
+    <text name="AllowUsersToRegisterThemselves_Hint" value="如果此项被禁用，只能由管理员通过用户管理页面添加用户." />
+    <text name="NewRegisteredUsersIsActiveByDefault" value="注册用户默认激活." />
+    <text name="NewRegisteredUsersIsActiveByDefault_Hint" value="如果此项被禁用，新用户需要通过邮件激活后才能登录." />
+    <text name="Default" value="默认" />
+    <text name="IsActive" value="是否激活" />
+    <text name="DisplayName" value="显示名称" />
+    <text name="UserDetails" value="用户详情" />
+    <text name="UserRoles" value="用户角色" />
+    <text name="DefaultPasswordIs" value="默认密码" />
+    <text name="FullName" value="完整名字" />
+    <text name="DefaultRole_Description" value="新用户将默认拥有此角色." />
+    <text name="StaticRole_Tooltip" value="不能删除系统角色." />
+    <text name="EmailConfirmationRequiredForLogin" value="必须验证邮箱地址后才能登录." />
+    <text name="{0}UserCannotBeDeleted" value="{不能删除0}用户." />
+    <text name="ExportToExcel" value="导出到Excel" />
+    <text name="ChangeProfilePicture" value="修改头像" />
+    <text name="TenantName_Regex_Description" value="租户名称必须由2个以上字母、数字、-、_组成,以字母开头" />
+    <text name="ProfilePicture_Change_Info" value="只能选择1mb内的JPG/JPEG/PNG图片." />
+    <text name="ProfilePicture_Change_Error" value="头像修改错误." />
+    <text name="ProfilePicture_Warn_SizeLimit" value="只能选择1mb内的JPG/JPEG图片，请重新选择头像文件." />
+    <text name="ProfilePicture_Warn_FileType" value="只能选择1mb内的JPG/JPEG图片，请重新选择头像文件." />
+    <text name="Dashboard" value="工作台" />
+    <text name="DashboardHeaderInfo" value="分析与报告" />
+    <text name="GoToApplication" value="登录系统" />
+    <text name="TenantInformations" value="租户信息" />
+    <text name="PersonalInformations" value="个人信息" />
+    <text name="AccountSettings" value="账号设置" />
+    <text name="Captha_Hint" value="输入图片中的验证码:" />
+    <text name="Back" value="返回" />
+    <text name="Submit" value="提交" />
+    <text name="SignUp" value="登录" />
+    <text name="CaptchaCanNotBeEmpty" value="验证码不能为空." />
+    <text name="IncorrectCaptchaAnswer" value="验证码无效." />
+    <text name="CanNotChangeAdminUserName" value="管理用户，不能修改用户名." />
+    <text name="Error" value="错误!" />
+    <text name="OopsYouAreLost" value="噢! 失踪了." />
+    <text name="WeCanNotFindThePage" value="我们无法提供您想要访问的页面." />
+    <text name="DashboardDemo_Note_Title" value="欢迎使用ASP.NET Zero启动项目!" />
+
+    <text name="WelcomePage_Title" value="欢迎!" />
+    <text name="WelcomePage_Info" value="欢迎使用本应用，您可以从左边的菜单启动要使用的功能。如果您没有看到任何菜单，可能是因为您没有获得任何一项授权，您可以联系您的系统管理员获得授权. " />
+    <text name="RequestedFileDoesNotExists" value="请求的文件不存在!" />
+    <text name="MailSent" value="邮件已发送" />
+
+    <text name="UseCaptchaOnRegistration" value="用户注册时使用图片验证码(captcha)." />
+    <text name="FormBasedRegistration" value="基于表单身份验证" />
+    <text name="LdapSettings" value="LDAP设置" />
+    <text name="EnableLdapAuthentication" value="启用轻量目录访问协议(LDAP)认证." />
+    <text name="OtherSettings" value="其它设置" />
+    <text name="AuditLogs" value="审计日志" />
+    <text name="Success" value="成功" />
+    <text name="Time" value="时间" />
+
+
+    <text name="TenantSelection" value="选择租户" />
+    <text name="TenantSelection_Detail" value="请选择一个租户" />
+    <text name="LoginWith" value="登录" />
+    <text name="PasswordChangeDontRememberMessage" value="忘记密码？ {0}." />
+    <text name="ClickHere" value="点击这里" />
+    <text name="Apply" value="应用" />
+    <text name="CustomRange" value="自定义范围" />
+
+    <!--标签-->
+    <text name="Tags" value="标签" />
+
+    <!--博客-->
+    <text name="Blogs" value="博客" />
+    <text name="ImgAboveUrl" value="题图" />
+    <text name="Title" value="标题" />
+    <text name="Content" value="内容" />
+    <text name="PraiseCount" value="统计赞数" />
+    <text name="TrampleCount" value="统计踩数" />
+    <text name="IsVisible" value="是否显示" />
+    <text name="PublishHome" value="发布到首页" />
+    <text name="IsTop" value="是否置顶" />
+    <text name="IsAllowComment" value="是否允许评论" />
+
+    <!--专栏-->
+    <text name="SpecialColumns" value="专栏" />
+    <text name="Introduction" value="介绍" />
+
+    <!--评论-->
+    <text name="Comments" value="评论" />
+    <text name="ClientIp" value="用户IP" />
+    <text name="BrowserInfo" value="浏览器信息" />
+
+
+    <!-- 设置 -->
+    <text name="Security">安全</text>
+    <text name="PasswordComplexity">密码复杂性</text>
+    <text name="UseDefaultSettings">使用默认设置</text>
+    <text name="PasswordComplexityNotSatisfied">过于简单的密码。</text>
+    <text name="PasswordComplexity_MinLength_Hint">密码必须包含 {0} 个字符</text>
+    <text name="PasswordComplexity_MaxLength_Hint">密码不能大于 {0} 个字符</text>
+    <text name="PasswordComplexity_UseNumbers_Hint">密码必须包含数字</text>
+    <text name="PasswordComplexity_UseUpperCaseLetters_Hint">密码必须包含一个大写字母</text>
+    <text name="PasswordComplexity_UseLowerCaseLetters_Hint">密码必须包含一个小写字母</text>
+    <text name="PasswordComplexity_UsePunctuations_Hint">密码必须包含一个特殊字符</text>
+    <text name="YouAlreadySentAFriendshipRequestToThisUser">您已经添加了这个用户。</text>
+    <text name="YouCannotBeFriendWithYourself">您不能邀请自己做朋友</text>
+    <text name="NewChatMessageEmail_Title">消息详情</text>
+    <text name="NewChatMessageEmail_SubTitle"></text>
+    <text name="NewChatMessageEmail_Subject">您有一个新的消息</text>
+    <text name="Sender">发送人</text>
+    <text name="Message">消息</text>
+    <text name="UserBlocked">用户锁定成功。</text>
+    <text name="UserUnblocked">用户解锁成功。</text>
+    <text name="BlockUser">锁定用户</text>
+    <text name="UnblockUser">解锁用户</text>
+    <text name="Timezone">时区</text>
+    <text name="UnlockedTheUser">解锁用户 {0}</text>
+    <text name="EnableUserAccountLockingOnFailedLoginAttemts">登录失败后启用用户的帐户锁定</text>
+    <text name="MaxFailedAccessAttemptsBeforeLockout">在锁定帐户之前的累计登录失败的最大数量</text>
+    <text name="DefaultAccountLockoutDurationAsSeconds">帐户锁定持续时间（秒）</text>
+    <text name="TwoFactorLogin">两步认证登录</text>
+    <text name="EnableTwoFactorLogin">启用两步认证登录</text>
+    <text name="IsEmailVerificationEnabled">启用电子邮件验证。</text>
+    <text name="IsSmsVerificationEnabled">启用短信验证。</text>
+    <text name="AllowToRememberBrowserForTwoFactorLogin">允许记住浏览器。如果您允许，用户可以选择记住浏览器，以跳过在同一个浏览器中的再次两步认证登录。</text>
+    <text name="PasswordComplexity_RequireDigit_Hint">密码至少有一个数字（'0'-'9'）。</text>
+    <text name="PasswordComplexity_RequireLowercase_Hint">密码至少有一个小写字母（'a'-'z'）。</text>
+    <text name="PasswordComplexity_RequireNonAlphanumeric_Hint">密码至少包含一个特殊字符。</text>
+    <text name="PasswordComplexity_RequireUppercase_Hint">密码至少有一个大写字母（'A'-'Z'）。</text>
+    <text name="PasswordComplexity_RequiredLength_Hint">密码至少为{0}个字符。</text>
+    <text name="PasswordComplexity_RequireDigit">缺少数字</text>
+    <text name="PasswordComplexity_RequireLowercase">缺少小写字母</text>
+    <text name="PasswordComplexity_RequireNonAlphanumeric">缺少特殊字符</text>
+    <text name="PasswordComplexity_RequireUppercase">缺少大写字母</text>
+    <text name="PasswordComplexity_RequiredLength">长度不足</text>
+    <text name="TenantManagement">租户管理</text>
+    <text name="AllowTenantsToRegisterThemselves">允许租户注册到系统。</text>
+    <text name="AllowTenantsToRegisterThemselves_Hint">如果您禁用此，创建租户只能在租户管理页，并且需要管理员权限 </text>
+    <text name="NewRegisteredTenantsIsActiveByDefault">新注册租户默认激活</text>
+    <text name="NewRegisteredTenantsIsActiveByDefault_Hint">如果您禁用这个，新的租户将不启用（和不能登录），直到管理员手动激活帐户。</text>
+    <text name="SmsVerificationEnabled">启用电话号码验证（通过短信）</text>
+    <text name="TestEmailSettingsHeader">测试邮件设置</text>
+    <text name="SendTestEmail">发送测试邮件</text>
+    <text name="TestEmail_Subject">测试电子邮件</text>
+    <text name="TestEmail_Body">这是一个测试邮件。</text>
+    <text name="TestEmailSentSuccessfully">成功发送测试邮件。</text>
+    <text name="WebSiteLogs">网站日志</text>
+    <text name="WebSiteLogsHeaderInfo">您可以看到最新的日志，或下载所有日志的压缩文件。</text>
+    <text name="LanguageSelection" value="语言选择"></text>
+    <text name="TenantRegister" value="租户注册"></text>
+    <text name="LengthError" value="长度错误"></text>
+
+    <text name="UseCaptchaOnTenantRegistration" value="租户注册时使用图片验证码(captcha)"></text>
+    <text name="CaptchaOnTenantRegistrationType" value="租户注册图片验证码类型"></text>
+    <text name="CaptchaOnTenantRegistrationLength" value="租户注册图片验证码长度"></text>
+
+    <text name="UseCaptchaOnHostUserRegistration" value="宿主用户注册时使用图片验证码(captcha)"></text>
+    <text name="CaptchaOnHostUserRegistrationType" value="宿主用户注册图片验证码类型"></text>
+    <text name="CaptchaOnHostUserRegistrationLength" value="宿主用户注册图片验证码长度"></text>
+
+    <text name="UseCaptchaOnHostUserLogin" value="宿主用户登陆时使用图片验证码(captcha)"></text>
+    <text name="CaptchaOnHostUserLoginType" value="宿主用户登陆图片验证码类型"></text>
+    <text name="CaptchaOnHostUserLoginLength" value="宿主用户登陆图片验证码长度"></text>
+
+    <text name="UseCaptchaOnUserRegistration" value="用户注册时使用图片验证码(captcha)"></text>
+    <text name="CaptchaOnUserRegistrationType" value="用户注册图片验证码类型"></text>
+    <text name="CaptchaOnUserRegistrationLength" value="用户注册图片验证码长度"></text>
+
+    <text name="UseCaptchaOnUserLogin" value="用户登陆使用验证码(captcha)"></text>
+    <text name="CaptchaOnUserLoginType" value="用户登陆图片验证码类型"></text>
+    <text name="CaptchaOnUserLoginLength" value="用户登陆图片验证码长度"></text>
+    <text name="TenancyName" value="租户编码"></text>
+    <text name="DisplayTenancyName" value="租户显示名称"></text>
+    <text name="AdminUserName" value="管理员用户名"></text>
+    <text name="MaxLength" value="超过最大长度"></text>
+    <text name="MinLength" value="小于最小长度"></text>
+    <text name="NotEmail" value="不是正确的邮箱格式"></text>
+    <text name="LoginAsThisUser" value="使用此用户登陆"></text>
+
+    <text name="BackToMyAccount" value="返回我的账户"></text>
+    <text name="AddUser" value="添加用户"></text>
+    <text name="SelectUsers" value="选择用户"></text>
+    <text name="EditLanguage" value="编辑语言"></text>
+    <text name="TenantNameOrTenancyCode" value="租户名称或租户编码"></text>
+    <text name="FindUser" value="查找用户"></text>
+    <text name="Select" value="选择"></text>
+    <text name="PleaseSelect" value="请选择"></text>
+    <text name="EditTenantFeatures" value="编辑租户功能"></text>
+    <text name="LoginAsThisTenant" value="使用此租户登陆"></text>
+
+    <text name="ExpressionCheckFailed" value="不符合数据校验规则"></text>
+
+  </texts>
+</localizationDictionary>
