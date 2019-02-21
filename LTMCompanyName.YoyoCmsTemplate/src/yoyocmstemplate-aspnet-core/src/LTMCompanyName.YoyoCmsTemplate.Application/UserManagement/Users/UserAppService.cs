@@ -20,8 +20,10 @@ using LTMCompanyName.YoyoCmsTemplate.Authorization;
 using LTMCompanyName.YoyoCmsTemplate.Authorization.Permissions;
 using LTMCompanyName.YoyoCmsTemplate.Authorization.Permissions.Dtos;
 using LTMCompanyName.YoyoCmsTemplate.Authorization.Roles;
+using LTMCompanyName.YoyoCmsTemplate.Dtos;
 using LTMCompanyName.YoyoCmsTemplate.Organizations.Dtos;
 using LTMCompanyName.YoyoCmsTemplate.UserManagement.Users.Dtos;
+using LTMCompanyName.YoyoCmsTemplate.UserManagement.Users.Exporting;
 using LTMCompanyName.YoyoCmsTemplate.UserManagerment.Users;
 
 namespace LTMCompanyName.YoyoCmsTemplate.UserManagement.Users
@@ -44,6 +46,8 @@ namespace LTMCompanyName.YoyoCmsTemplate.UserManagement.Users
         private readonly IRepository<User, long> _userRepository;
         private readonly IRepository<UserRole, long> _userRoleRepository;
 
+        private readonly IUserListExcelExporter _userListExcelExporter;
+
         /// <summary>
         ///     构造方法
         /// </summary>
@@ -54,7 +58,7 @@ namespace LTMCompanyName.YoyoCmsTemplate.UserManagement.Users
             IRepository<OrganizationUnit, long> organizationUnitRepository,
             RoleManager roleManager,
             IPasswordHasher<User> passwordHasher,
-            IEnumerable<IPasswordValidator<User>> passwordValidators)
+            IEnumerable<IPasswordValidator<User>> passwordValidators, IUserListExcelExporter userListExcelExporter)
         {
             _userRepository = userRepository;
             _rolePermissionRepository = rolePermissionRepository;
@@ -67,6 +71,7 @@ namespace LTMCompanyName.YoyoCmsTemplate.UserManagement.Users
             _passwordHasher = passwordHasher;
 
             _passwordValidators = passwordValidators;
+            _userListExcelExporter = userListExcelExporter;
         }
 
         public async Task CreateOrUpdate(CreateOrUpdateUserInput input)
@@ -242,6 +247,18 @@ namespace LTMCompanyName.YoyoCmsTemplate.UserManagement.Users
         {
             var user = await UserManager.GetUserByIdAsync(input.Id);
             user.Unlock();
+        }
+
+        /// <summary>
+        /// 获取用户导出信息
+        /// </summary>
+        /// <returns></returns>
+        public async Task<FileDto> GetUsersToExcel()
+        {
+            var user = await UserManager.Users.ToListAsync();
+            var dtos = ObjectMapper.Map<List<UserListDto>>(user);
+            var file= _userListExcelExporter.ExportToExcel(dtos);
+            return file;
         }
 
 

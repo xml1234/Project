@@ -1,3 +1,4 @@
+import { FileDownloadService } from './../../../shared/utils/file-download.service';
 import { Component, OnInit, Injector, ViewChild } from '@angular/core';
 import {
   PagedListingComponentBase,
@@ -58,6 +59,7 @@ export class UsersComponent extends PagedListingComponentBase<UserListDto>
     private _userService: UserServiceProxy,
     private _activatedRoute: ActivatedRoute,
     public _impersonationService: ImpersonationService,
+    private _fileDownloadService:FileDownloadService
   ) {
     super(injector);
     this.filterText =
@@ -214,7 +216,11 @@ export class UsersComponent extends PagedListingComponentBase<UserListDto>
     );
   }
   exportToExcel(): void {
-    throw new Error('还在开发');
+
+    this._userService.getUsersToExcel().subscribe(result => {
+      this._fileDownloadService.downloadTempFile(result);
+    });
+
   }
   /**
    * 删除功能

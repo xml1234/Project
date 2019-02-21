@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using Abp.Application.Services;
 using Abp.Application.Services.Dto;
+using LTMCompanyName.YoyoCmsTemplate.Dtos;
 using LTMCompanyName.YoyoCmsTemplate.UserManagement.Users.Dtos;
 
 namespace LTMCompanyName.YoyoCmsTemplate.UserManagement.Users
@@ -74,5 +75,12 @@ namespace LTMCompanyName.YoyoCmsTemplate.UserManagement.Users
         /// <param name="input"></param>
         /// <returns></returns>
         Task Unlock(EntityDto<long> input);
+
+        /// <summary>
+        /// 获取用户导出信息
+        /// </summary>
+        /// <returns></returns>
+        Task<FileDto> GetUsersToExcel();
+
     }
 }

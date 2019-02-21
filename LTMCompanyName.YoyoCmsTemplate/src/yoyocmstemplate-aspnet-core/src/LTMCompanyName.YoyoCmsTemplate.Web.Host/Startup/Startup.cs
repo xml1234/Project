@@ -85,6 +85,21 @@ namespace LTMCompanyName.YoyoCmsTemplate.Web.Host.Startup
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new Info { Title = "YoyoCmsTemplate API", Version = "v1" });
+                //版本增强
+                options.SwaggerDoc("v2", new Info
+                {
+                    Title = "这是v2版本！",
+                    Version = "v2",
+                    Description = "动态webapi管理端",
+                    TermsOfService = "https://www.baidu.com",
+                    Contact = new Contact()
+                    {
+                        Name = "https://www.baidu.com",
+                        Email = "https://www.baidu.com",
+                        Url = "https://www.baidu.com"
+                    },
+                });
+
                 options.DocInclusionPredicate((docName, description) => true);
 
                 // 表示需要授权，授权按钮处理逻辑在静态文件 wwwroot/swagger/ui/index.html 中
@@ -165,6 +180,21 @@ namespace LTMCompanyName.YoyoCmsTemplate.Web.Host.Startup
             app.UseSwaggerUI(options =>
             {
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "YoyoCmsTemplate API V1");
+                options.SwaggerEndpoint("/swagger/v2/swagger.json", "切换到v2");
+
+                //options.DefaultModelExpandDepth(2);
+                //options.DefaultModelRendering(ModelRendering.Model);
+                //options.DefaultModelsExpandDepth(-1);
+                //options.DisplayOperationId();
+                //options.DisplayRequestDuration();
+                //options.DocExpansion(DocExpansion.None);
+                //options.EnableDeepLinking();
+                //options.EnableFilter();
+                //options.ShowExtensions();
+                //options.EnableValidator();
+                //options.SupportedSubmitMethods(SubmitMethod.Get, SubmitMethod.Head);
+
+
                 options.IndexStream = () => Assembly.GetExecutingAssembly()
                     .GetManifestResourceStream("LTMCompanyName.YoyoCmsTemplate.Web.Host.wwwroot.swagger.ui.index.html");
             }); // URL: /swagger
