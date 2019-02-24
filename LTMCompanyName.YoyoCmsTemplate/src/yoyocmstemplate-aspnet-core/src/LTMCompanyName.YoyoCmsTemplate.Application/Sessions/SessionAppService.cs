@@ -6,6 +6,7 @@ using Abp.Auditing;
 using Abp.Runtime.Session;
 using Abp.Web.Configuration;
 using Abp.Web.Models.AbpUserConfiguration;
+using LTMCompanyName.YoyoCmsTemplate.Extension;
 using LTMCompanyName.YoyoCmsTemplate.Sessions.Dto;
 using LTMCompanyName.YoyoCmsTemplate.SignalR;
 
@@ -32,7 +33,9 @@ namespace LTMCompanyName.YoyoCmsTemplate.Sessions
                     Features = new Dictionary<string, bool>
                     {
                         {"SignalR", SignalRFeature.IsAvailable},
-                        {"SignalR.AspNetCore", SignalRFeature.IsAspNetCore}
+                        {"SignalR.AspNetCore", SignalRFeature.IsAspNetCore},
+                        { AbpSession.GetUserName(),true },
+                        { AbpSession.GerUserEmail(),true }
                     }
                 }
             };
